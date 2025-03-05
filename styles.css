@@ -1,0 +1,88 @@
+body {
+    background-color: #f0f8ff; /* Light blue background */
+    font-family: 'Roboto', sans-serif; /* Modern font */
+}
+
+.title {
+    color: #4a90e2; /* Title color */
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+.course-card {
+    background-color: #ffffff; /* White background for cards */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 20px; /* Padding inside cards */
+    margin-bottom: 20px; /* Space between cards */
+    transition: transform 0.2s, background-color 0.3s; /* Smooth transitions */
+}
+
+.course-card:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+.subtopic {
+    margin-top: 10px; /* Space above subtopics */
+}
+
+input[type="number"] {
+    border: 2px solid #4a90e2; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside input */
+    width: 100%; /* Full width */
+    margin-top: 10px; /* Space above input */
+}
+
+input[type="number"]:focus {
+    border-color: #4caf50; /* Change border color on focus */
+    outline: none; /* Remove outline */
+}
+
+.btn-success {
+    background-color: #4caf50; /* Green button */
+    border: none; /* No border */
+}
+
+.btn-success:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Red button for remove */
+    border: none; /* No border */
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+.btn-warning {
+    background-color: #ffc107; /* Warning button color */
+    border: none; /* No border */
+}
+
+.btn-warning:hover {
+    background-color: #e0a800; /* Darker warning color on hover */
+}
+
+.completed {
+    background-color: #d4edda; /* Light green for completed courses */
+    border-left: 5px solid #28a745; /* Green left border */
+}
+
+.mt-4 {
+    margin-top: 1.5rem; /* Spacing for sections */
+}
+
+h3 {
+    color: #333; /* Darker color for section headings */
+}
+
+form {
+    margin-bottom: 20px; /* Space below forms */
+}
+
+select {
+    height: auto; /* Adjust height for select */
+}
